@@ -12,7 +12,7 @@ const pMensagem = document.createElement('p');
 salvarBtn.addEventListener("click", function() {
     const valor = campo.value;
 
-    if (valor.trim() === "") {
+    if (valor.trim() ==="") {
         // alert("Preencha o campo");
         pMensagem.textContent = "Campo obrigatório:";
         campo.insertAdjacentElement("afterend", pMensagem);

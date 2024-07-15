@@ -5,7 +5,7 @@ carregarValoresSalvos();
 
 // Função para carrega valores na lista
 function carregarValoresSalvos() {
-    listaValores.innerHTML = ""; //Limpa lista antes de adicionar valores
+    listaValores.inernHTML = ""; //Limpa lista antes de adicionar valores
 
     for (let i = 0; i < localStorage.length; i++) {
         const chave = localStorage.key(i);
